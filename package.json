@@ -4,7 +4,7 @@
   "description": "A FizzBuzz solution for Best Buy recruiting",
   "main": "handler.js",
   "scripts": {
-    "test": "serverless-bundle test"
+    "test": "jest"
   },
   "author": "Joshua Causey",
   "license": "MIT",

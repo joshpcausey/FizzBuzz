@@ -17,8 +17,8 @@ provider:
 
 functions:
   fizzbuzz:
-    handler: handler.fizzbuzz
+    handler: fizzbuzz.main
     events:
       - http:
           path: fizzbuzz
-          method: get
+          method: post
