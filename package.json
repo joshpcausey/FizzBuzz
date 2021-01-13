@@ -1,0 +1,21 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0",
+  "description": "A FizzBuzz solution for Best Buy recruiting",
+  "main": "handler.js",
+  "scripts": {
+    "test": "serverless-bundle test"
+  },
+  "author": "Joshua Causey",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshpcausey/FizzBuzz.git"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.826.0",
+    "serverless-bundle": "3.2.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-offline": "^5.3.3"
+  }
+}
